@@ -2,10 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@spectrum-web-components/bundle': ^0.28.8
+  '@spectrum-web-components/button': ^0.20.0
+  '@spectrum-web-components/dialog': ^0.11.11
+  '@spectrum-web-components/theme': ^0.14.11
   vite: ^4.1.1
 
 dependencies:
   '@spectrum-web-components/bundle': 0.28.8
+  '@spectrum-web-components/button': 0.20.0
+  '@spectrum-web-components/dialog': 0.11.11
+  '@spectrum-web-components/theme': 0.14.11
 
 devDependencies:
   vite: 4.1.1
