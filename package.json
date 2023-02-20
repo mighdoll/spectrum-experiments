@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vite": "^4.1.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@spectrum-web-components/bundle": "^0.28.8"
+  }
+}
