@@ -6,5 +6,5 @@ export function main():void {
   console.clear();
   console.log("hello");
   const el = document.querySelector("sp-accordion")!;
-  new Sortable(el);
+  new Sortable(el, {animation: 300});
 }
