@@ -4,6 +4,7 @@ specifiers:
   '@spectrum-web-components/bundle': ^0.28.8
   '@spectrum-web-components/button': ^0.20.0
   '@spectrum-web-components/dialog': ^0.11.11
+  '@spectrum-web-components/slider': ^0.15.7
   '@spectrum-web-components/theme': ^0.14.11
   sortablejs: ^1.15.0
   vite: ^4.1.1
@@ -12,6 +13,7 @@ dependencies:
   '@spectrum-web-components/bundle': 0.28.8
   '@spectrum-web-components/button': 0.20.0
   '@spectrum-web-components/dialog': 0.11.11
+  '@spectrum-web-components/slider': 0.15.7
   '@spectrum-web-components/theme': 0.14.11
   sortablejs: 1.15.0
 
@@ -289,6 +291,15 @@ packages:
       '@spectrum-web-components/icons-ui': 0.9.8
     dev: false
 
+  /@spectrum-web-components/action-button/0.10.12:
+    resolution: {integrity: sha512-+VlBICwj4laO+aSCcGr+S2m7MMQUAhrvFDpm3y4uXR4nppXKrut7F4UXsVrN4E4gHZJOMzfvpvv01Q4wpokNzw==}
+    dependencies:
+      '@spectrum-web-components/base': 0.7.4
+      '@spectrum-web-components/button': 0.20.1
+      '@spectrum-web-components/icon': 0.12.8
+      '@spectrum-web-components/icons-ui': 0.9.8
+    dev: false
+
   /@spectrum-web-components/action-group/0.12.7:
     resolution: {integrity: sha512-a+AoJ76mHnydRLuwX0LrdsPqtGaik0hCSFCo/JHL+fVv7PXKGyb/pJkMUQXzSsp76PbVe8F08s5F0DgU3alxxQ==}
     dependencies:
@@ -396,7 +407,7 @@ packages:
       '@spectrum-web-components/search': 0.12.11
       '@spectrum-web-components/shared': 0.15.5
       '@spectrum-web-components/sidenav': 0.13.9
-      '@spectrum-web-components/slider': 0.15.6
+      '@spectrum-web-components/slider': 0.15.7
       '@spectrum-web-components/split-button': 0.9.12
       '@spectrum-web-components/split-view': 0.5.7
       '@spectrum-web-components/status-light': 0.11.7
@@ -425,6 +436,17 @@ packages:
 
   /@spectrum-web-components/button/0.20.0:
     resolution: {integrity: sha512-PtTwclKLNB2c+0tMLM8Y8dTCamMiqdG/am/BODRnSDQb6Nr0Op5bmm0HMKgSEsDlRuf8KDqR3OjDp7FXvoW2cg==}
+    dependencies:
+      '@spectrum-web-components/base': 0.7.4
+      '@spectrum-web-components/clear-button': 0.2.6
+      '@spectrum-web-components/close-button': 0.3.9
+      '@spectrum-web-components/icon': 0.12.8
+      '@spectrum-web-components/icons-ui': 0.9.8
+      '@spectrum-web-components/shared': 0.15.5
+    dev: false
+
+  /@spectrum-web-components/button/0.20.1:
+    resolution: {integrity: sha512-UF/HcZLRUGDyWKg6V2V7bwkoMo8b0ZvVWBfERX8GB5Qm4GdGRpEZYJ+6u7yRmSHrnNlb26CMjlRCaBysMSODkQ==}
     dependencies:
       '@spectrum-web-components/base': 0.7.4
       '@spectrum-web-components/clear-button': 0.2.6
@@ -662,6 +684,19 @@ packages:
       '@spectrum-web-components/textfield': 0.13.11
     dev: false
 
+  /@spectrum-web-components/number-field/0.5.12:
+    resolution: {integrity: sha512-KQPodzOFpGlTi2kh4QerHwf2z6qDek8PwQho+V64NJ/srVRyJpe7GjzNrbZp4O1ZZ6M+aNgIqBaVCuBz0X1SVQ==}
+    dependencies:
+      '@internationalized/number': 3.1.2
+      '@spectrum-web-components/action-button': 0.10.12
+      '@spectrum-web-components/base': 0.7.4
+      '@spectrum-web-components/icon': 0.12.8
+      '@spectrum-web-components/icons-ui': 0.9.8
+      '@spectrum-web-components/reactive-controllers': 0.3.5
+      '@spectrum-web-components/shared': 0.15.5
+      '@spectrum-web-components/textfield': 0.13.11
+    dev: false
+
   /@spectrum-web-components/overlay/0.19.0:
     resolution: {integrity: sha512-r4FdWC1uldC8KjAhh+DPDFbZX3BLjta20xvcQ4nuwflskNU6SthGwYfnXhM6EKUu0W3vqxN1ZRpupnrK4UzBiw==}
     dependencies:
@@ -763,14 +798,14 @@ packages:
       '@spectrum-web-components/shared': 0.15.5
     dev: false
 
-  /@spectrum-web-components/slider/0.15.6:
-    resolution: {integrity: sha512-qSkUQ3U8lLQh/b/RpKnwbdpWmErN1tCOFd7tdHn5xCNQcx75Yl83byFfWEn8OXsOpSSfudRyuGdOLXsHgzk6Jg==}
+  /@spectrum-web-components/slider/0.15.7:
+    resolution: {integrity: sha512-OhkmM918q8uD3HwYWewAbUcgekmGWHTgzKvcWExv5KX7qeVc/HRYPZaWGiSgNF0teyoCCtjRtvpYWUvU2W/SBQ==}
     dependencies:
       '@internationalized/number': 3.1.2
       '@lit-labs/observers': 1.1.0
       '@spectrum-web-components/base': 0.7.4
       '@spectrum-web-components/field-label': 0.10.6
-      '@spectrum-web-components/number-field': 0.5.11
+      '@spectrum-web-components/number-field': 0.5.12
       '@spectrum-web-components/reactive-controllers': 0.3.5
       '@spectrum-web-components/shared': 0.15.5
       '@spectrum-web-components/theme': 0.14.11

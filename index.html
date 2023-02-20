@@ -2,18 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>WebGPU Image Processing</title>
+    <title>Spectrum Experiments</title>
   </head>
   <body>
     <script src="/src/Imports.ts" type="module"></script>
 
     <sp-theme theme="spectrum" color="light" scale="medium">
-      <sp-accordion>
-        <sp-accordion-item label="a"> <div>apple</div></sp-accordion-item>
-        <sp-accordion-item label="b"> <div>bar</div></sp-accordion-item>
-        <sp-accordion-item label="c"> <div>choo</div></sp-accordion-item>
-        <sp-accordion-item label="d"> <div>doodle</div></sp-accordion-item>
-      </sp-accordion>
+      <sp-slider
+        label="histogram bins"
+        id="histogram-bins"
+        min="2"
+        max="256"
+        editable
+      >
+      </sp-slider>
     </sp-theme>
     <script src="/src/App.ts" type="module"></script>
   </body>
