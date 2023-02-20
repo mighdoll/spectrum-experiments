@@ -8,14 +8,19 @@
     <script src="/src/Imports.ts" type="module"></script>
 
     <sp-theme theme="spectrum" color="light" scale="medium">
-      <sp-slider
-        label="histogram bins"
-        id="histogram-bins"
-        min="2"
-        max="256"
-        editable
-      >
-      </sp-slider>
+      <sp-accordion>
+        <sp-accordion-item label="Histogram">
+          <sp-slider
+            label="histogram bins"
+            id="histogram-bins"
+            min="2"
+            value="256"
+            max="256"
+            editable
+          >
+          </sp-slider>
+        </sp-accordion-item>
+      </sp-accordion>
     </sp-theme>
     <script src="/src/App.ts" type="module"></script>
   </body>
