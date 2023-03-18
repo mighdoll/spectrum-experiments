@@ -6,15 +6,10 @@
   </head>
   <body>
     <script src="/src/Imports.ts" type="module"></script>
-
-    <sp-theme theme="spectrum" color="light" scale="medium">
-      <overlay-trigger>
-        <sp-action-button slot="trigger"> </sp-action-button>
-        <sp-popover slot="click-content" placement="right" dialog>
-          <sp-slider label="histogram bins"> </sp-slider>
-        </sp-popover>
-      </overlay-trigger>
-    </sp-theme>
-    <script src="/src/App.ts" type="module"></script>
+    <nav-button>
+      <sp-icon-bug slot="icon"></sp-icon-bug>
+      bugz
+      <div slot="inner">bar should display</div>
+    </nav-button>
   </body>
 </html>
